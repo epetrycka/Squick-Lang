@@ -33,8 +33,9 @@ SquickLang is a mini programming language inspired by Python, but with Esperanto
 | `nenio`      | none               | Null literal           |
 | `ne`         | not                | Logical negation       |
 | `reveni`     | return             | Return statement       |
+| `skribi`     | print              | Print on console       |
 | `Saluton`    | (start of program) | Program entry point    |
-| `adiau`      | (end of program)   | Program termination    |
+| `Adiau`      | (end of program)   | Program termination    |
 
 ---
 
@@ -92,18 +93,18 @@ SquickLang is a mini programming language inspired by Python, but with Esperanto
 
 ---
 
-## ✅ Code Example
+## Code Example
 
 ```squick
 Saluton
 
 difini salutu(nomo: snuro):
-    print("Saluton, " + nomo)
+    skribi("Saluton, " + nomo)
 
 por variablo en ["Mia", "Eta", "Amiko"]:
     salutu(variablo)
 
-adiau
+Adiau
 ```
 
 ---
